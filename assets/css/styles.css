@@ -1,0 +1,382 @@
+.itemDetail {
+  background: #fff;
+  padding: 25px;
+  margin: 15px 10px 10px 0;
+  box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.wp_droid_input {
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px;
+  background: #f5f5f5 !important;
+  border: none !important;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #424242 !important;
+}
+
+.itemTitle {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.wp_droid_table th {
+  vertical-align: middle;
+  font-weight: 600 !important;
+  color: #263238;
+}
+
+.wp_droid_th {
+  font-size: 1.02em !important;
+  font-weight: 600 !important;
+}
+
+.wp_droid_button {
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  border: none;
+  background: #2b5876;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 30px;
+}
+
+.wp_droid_subheading {
+  color: #263238;
+  font-weight: 600;
+  font-size: 1.15em;
+  line-height: 25px;
+}
+
+.wp_droid_custom_css {
+  border-left: #E0E0E0 15px solid;
+  padding: 20px;
+  color: #212121;
+  font-weight: 100;
+  background-color: #FAFAFA !important;
+  font-family: monospace;
+}
+
+.wp_droid_button:hover {
+  background: #333;
+}
+
+.wpdroid_label input[type=checkbox], .wpdroid_label input[type=radio] {
+  border: none;
+  background: #f5f5f5;
+  color: #333;
+  height: 26px;
+  min-height: 26px;
+  margin: -4px 4px 0 0;
+  text-align: center;
+  width: 26px;
+  min-width: 26px;
+  box-shadow: inset 0px 1px 20px rgba(0, 0, 0, .1);
+  transition: .05s border-color ease-in-out;
+  margin-right: 10px;
+}
+
+.wpdroid_label input[type=checkbox]:checked:before {
+  margin: -5px;
+  font-size: 2.5em !important;
+  color: #2b5876 !important;
+  content: '\f147';
+}
+
+.wpdroid_label input[type=radio]:before {
+  border-radius: 50px;
+  font-size: 24px;
+  width: 16px;
+  height: 16px;
+  margin: 5px;
+  background-color: #2b5876;
+}
+
+.wpdroid_label code {
+  background: none;
+  font-weight: 700;
+  font-family: unset;
+  padding: 0px !important;
+  color: #333;
+  display: contents;
+}
+
+.wpdroid_label {
+  display: flex;
+  font-size: 1.05em;
+}
+
+.wpdroid_multiple_checkbox .wpdroid_label {
+  margin-bottom: 13px;
+}
+
+@media (min-width: 961px) {
+  #wpdroid_main {
+    float: left;
+    width: 69%;
+  }
+}
+
+@media (max-width: 960px) {
+  #wpdroid_main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 782px) {
+  #wpdroid_main input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  #wpdroid_main .wpdroid_label {
+    display: block;
+    padding-left: 45px;
+    text-indent: -45px;
+  }
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.columnsContainer {
+  position: relative;
+}
+
+.rightColumn {
+  padding-left: 0.2em;
+  padding-right: 0.6em;
+  width: 100%;
+}
+
+.promotions {
+  margin-top: 15px;
+  position: fixed;
+}
+
+.promotions-nonsticky {
+  position: absolute;
+}
+
+.leftColumn {
+  margin-bottom: .5em;
+}
+
+.wpdroid_customizer_menu div {
+  display: block;
+}
+
+.wpdroid_customizer_menu {
+  box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.3);
+  text-align: center;
+  background: #2b5876;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wpdroid_customizer_menu div {
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 1.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.wpdroid_customizer_menu div:hover {
+  background: #333;
+}
+
+.wpdroid_customizer_menu div a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.wp_droid_about_placeholders::placeholder {
+  color: #BDBDBD;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 47.5em) {
+  .leftColumn {
+    margin-right: 19.5em;
+  }
+  .rightColumn {
+    top: 0;
+    right: 0;
+    width: 20em;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .promotions {
+    position: absolute !important;
+  }
+}
+
+.wpdroid_disable .wp_droid_input {
+  pointer-events: none;
+  background: rgba(244, 67, 54, 0.1) !important;
+}
+
+.wpdroid_disable th {
+  padding-left: 8px;
+}
+
+.wpdroid_disable {
+  background: rgba(244, 67, 54, 0.3);
+  position: relative;
+  cursor: no-drop;
+}
+
+.wpdroid-license-error {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+  background: #FFF;
+  padding: 20px;
+  box-shadow: 0rem 0.3rem 0.9rem rgba(0, 0, 0, 0.1);
+}
+
+.wpdroid-license-error h2 {
+  font-size: 1.6em;
+}
+
+.wpdroid-license-error p {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+a.wp_droid_button {
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+a.wp_droid_button:hover {
+  color: #fff;
+}
+
+.wp_droid_button:disabled {
+  cursor: no-drop;
+  background: #E0E0E0;
+  color: #9E9E9E;
+}
+
+input[type=checkbox]:disabled, input[type=radio]:disabled {
+  pointer-events: none;
+  cursor: no-drop;
+}
+
+.wpdroid_disable:after, .wpdroid_disable.before-content:before {
+  content: 'Upgrade to unlock';
+  position: absolute;
+  left: 30%;
+  background: #FFC107;
+  padding: 10px 50px;
+  color: #212121;
+  font-weight: 900;
+  text-transform: uppercase;
+  box-shadow: 0rem 0.3rem 0.9rem rgba(0, 0, 0, 0.1);
+  cursor: no-drop;
+}
+
+.wpdroid_disable.before-content:after {
+  content: '';
+  background: none;
+}
+
+.wpdroid-post-meta-not-allowed {
+  color: #BDBDBD;
+  cursor: no-drop;
+  pointer-events: none;
+}
+
+.wpdroid-post-meta-not-allowed:after {
+  content: ' (Upgrade to unlock)';
+  color: #e57373;
+  font-weight: 400;
+}
+
+.wpdroid-cross-promotions span.heading.red, .wpdroid-cross-promotions span.heading.green {
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.wpdroid-cross-promotions span.heading.red {
+  background: #f44336;
+}
+
+.wpdroid-cross-promotions span.heading.green {
+  background: #4CAF50;
+}
+
+.wpdroid-cross-promotions span.value.red {
+  color: #f44336;
+}
+
+.wpdroid-cross-promotions span.value.green {
+  color: #4CAF50;
+}
+
+.wpdroid-cross-promotions span.value.allcaps {
+  text-transform: uppercase;
+}
+
+.wpdroid-cross-promotions span.heading {
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #2b5876;
+}
+
+span.value {
+  font-size: 1.1em;
+  padding-bottom: .4em;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.wpdroid-cross-promotions {
+  background: #fff;
+  padding: 10px 15px 10px 15px;
+  margin-top: 15px;
+  box-shadow: 0rem 0.3rem 0.9rem rgba(0, 0, 0, 0.1);
+}
+
+.wpdroid-cross-promotions p {
+  color: #212121;
+  font-weight: 600;
+}
+
+.wp_droid_promotion_link {
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 3px solid #4e4376;
+  color: #2b5876;
+  cursor: pointer;
+}
+
+.wp_droid_promotion_link:hover {
+  color: #4e4376;
+}
